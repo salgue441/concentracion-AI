@@ -137,7 +137,6 @@ def extract_metadata(image_path: Path) -> Dict[str, Any]:
             try:
                 exif_dict = piexif.load(img.info["exif"])
 
-                # Camera information
                 if "0th" in exif_dict:
                     metadata.update(
                         {
@@ -173,11 +172,6 @@ def extract_metadata(image_path: Path) -> Dict[str, Any]:
                     )
 
             except Exception:
-                pass
-
-    except Exception as e:
-        metadata["error"] = str(e)
-
     return metadata
 
 

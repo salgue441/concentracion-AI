@@ -1,0 +1,22 @@
+# image files
+*.png
+*.jpg
+*.jpeg
+
+# visual studio code
+.vscode
+.vscode/
+
+# python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# jupyter notebook
+.ipynb_checkpoints
+
+# data
+data/

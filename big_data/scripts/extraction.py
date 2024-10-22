@@ -172,6 +172,11 @@ def extract_metadata(image_path: Path) -> Dict[str, Any]:
                     )
 
             except Exception:
+                print(f"Error reading EXIF data from {image_path}")
+
+    except Exception as e:
+        print(f"Error processing {image_path}: {e}")
+
     return metadata
 
 

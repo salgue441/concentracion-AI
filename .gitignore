@@ -9,6 +9,7 @@
 
 # pytorch
 *.pth
+*.pt
 
 # python
 __pycache__

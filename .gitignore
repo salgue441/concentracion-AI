@@ -3,6 +3,9 @@
 *.jpg
 *.jpeg
 
+# do not ignore images directory
+!images/*
+
 # visual studio code
 .vscode
 .vscode/

@@ -58,6 +58,21 @@ Language processing techniques implementation including:
 - Text classification with LSTM
 - Large Language Models
 
+#### Project Structure
+
+```bash
+nlp
+│
+├── embeddings/                                           # Word embeddings with GloVe
+│   ├── cache/                                            # GloVe embeddings cache
+│   ├── solution.ipynb                                    # Solution notebook
+│   ├── TC3007B_NLP_HW1_embeddings.ipynb                  # Instructions notebook
+├── text_classifier/                                      # Text classification with LSTM
+│   ├── data/                                             # News dataset
+│   ├── solution.ipynb                                    # Solution notebook
+│   ├── TC3007B_NLP_HW2_AD2024_text_classifier-1.ipynb    # Instructions notebook
+```
+
 ## Technologies Used 🛠️
 
 - PyTorch & TensorFlow

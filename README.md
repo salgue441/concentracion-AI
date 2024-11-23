@@ -31,6 +31,25 @@ Animal Image Classification system using PySpark and TensorFlow:
 - Spark ML Model: 98.19% accuracy
 - High precision and recall across all classes
 
+#### Project Structure
+
+```bash
+big-data-project
+│
+├── data/                  # Raw and processed data
+│   ├── images/
+│   │   ├── antelopes/
+│   │   ├── ...
+│   │   └── wolf/
+├── images/                # Images for the notebook
+├── notebooks/             # Jupyter notebooks
+│   ├── solution.ipynb
+├── docs/                  # PDF report of the notebook
+├── scripts/               # Metadata extraction scripts and csv file
+│   ├── extraction.py
+├── tableau/               # Tableau workbook for data visualization
+```
+
 ### 2. Natural Language Processing 🔤
 
 Language processing techniques implementation including:

@@ -5,6 +5,7 @@
 
 # do not ignore images directory
 !images/*
+!big_data/images/*
 
 # visual studio code
 .vscode

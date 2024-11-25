@@ -71,9 +71,16 @@ nlp
 │   ├── data/                                             # News dataset
 │   ├── solution.ipynb                                    # Solution notebook
 │   ├── TC3007B_NLP_HW2_AD2024_text_classifier-1.ipynb    # Instructions notebook
+├── transformers/                                         # Transformers and Large Language Models
+│   ├── data/                                             # English and Spanish datasets
+│   ├── output/                                           # Model outputs
+│   ├── solution.ipynb                                    # Solution notebook
+│   ├── solution-transformer.ipynb                        # Kaggle notebook with outputs
+│   ├── TC3007B_NLP_Transformer-2.ipynb                   # Instructions notebook
+
 ```
 
-## Technologies Used 🛠️
+#### Technologies Used 🛠️
 
 - PyTorch & TensorFlow
 - PySpark
